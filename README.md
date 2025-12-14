@@ -110,11 +110,3 @@ If you find this work useful, please cite:
   year={2025}
 }
 ```
-
-## License
-
-This project is released under the MIT License.
-
-## Acknowledgements
-
-We thank the authors of the benchmark datasets used in our experiments.
