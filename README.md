@@ -91,13 +91,6 @@ The training process will:
 - Save periodic snapshots every 50 epochs
 - Apply early stopping if no improvement for 100 epochs
 
-## Key Features
-
-- **Lightweight Architecture**: Efficient graph-based design suitable for real-world deployment
-- **Multi-modal Fusion**: Jointly models spatial, spectral, and temporal information
-- **Strong Generalization**: Superior performance in both in-domain and cross-domain settings
-- **Robustness**: Effective against unseen manipulation types
-
 ## Citation
 
 If you find this work useful, please cite:
