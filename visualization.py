@@ -160,24 +160,6 @@ def visualize_spectral(
         plt.tight_layout()
         plt.savefig(os.path.join(output_dir, 'spectral_filtering_all_frames.png'), dpi=150)
         plt.close()
-        
-        plt.figure(figsize=(10, 4))
-        plt.subplot(1, 2, 1)
-        plt.plot(eigvals[0].cpu().numpy())
-        plt.xlabel('Index')
-        plt.ylabel('Eigenvalue')
-        plt.title('Eigenvalue Spectrum')
-        
-        plt.subplot(1, 2, 2)
-        plt.plot(filter_response[0].cpu().numpy())
-        plt.xlabel('Index')
-        plt.ylabel('Filter Response')
-        plt.title('Learned Filter Response (after sigmoid)')
-        
-        plt.tight_layout()
-        plt.savefig(os.path.join(output_dir, 'filter_response.png'), dpi=150)
-        plt.close()
-        
         print(f"Visualization saved to {output_dir}/")
 
 
