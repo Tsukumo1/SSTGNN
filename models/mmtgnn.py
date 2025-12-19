@@ -379,4 +379,12 @@ class MMTGNN(torch.nn.Module):
         
         logits = self.classifier(final_embedding)
         
-        return logits
+        if return_intermediates:
+            intermediates = {
+                'node_features': node_features,
+                'full_spatial_edge_index': full_spatial_edge_index,
+                'spatial_edge_weights': spatial_edge_weights
+            }
+            return logits, intermediates
+        else:
+            return logits
