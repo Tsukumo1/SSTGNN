@@ -8,11 +8,11 @@ val_ratio: 0.1
 test_ratio: 0.1
 patch_size: [32, 32]
 window_size: 8
-save_path: checkpoints/sample/NT
+save_path: checkpoints/sample/FS
 display_iter: 1
 snapshot_iter: 50
 patience: 100
-dataset: NT
+dataset: FS
 
 model:
   num_features: 128
