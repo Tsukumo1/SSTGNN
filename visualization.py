@@ -164,7 +164,7 @@ def visualize_spectral(
 
 
 def main():
-    video_dir = "/mnt/temp/FaceForensics++/manipulated_sequences/Face2Face/c23/frames/022_489"
+    video_dir = "data/FaceForensics++/manipulated_sequences/NeuralTextures/c23/frames/022_489"
     num_frames = 8
     patch_size = 32
     output_dir = './spectral_vis'
