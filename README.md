@@ -56,6 +56,8 @@ pip install -r requirements.txt
 ### 1. Prepare Dataset
 
 Place your video dataset in the `data/` folder. The dataset should be organized with real and fake video samples.
+We provide a sample dataset (FS) for testing purposes:
+- **FS Sample**: [Download from Google Drive](https://drive.google.com/file/d/1vyJ2pR5HUu3Vp13IIaXNce8GleJwQghJ/view?usp=drive_link)
 
 ### 2. Configure Parameters
 
